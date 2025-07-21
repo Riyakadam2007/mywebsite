@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> mahi - Imitation Jewellery</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf5;
+    }
+
+    header {
+      background-color: #b98e67;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .banner {
+      background-color: #fce5cd;
+    }
+
+    .collections {
+      background-color: #fff3e0;
+    }
+
+    .collection-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .collection {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #e0cfc2;
+      width: 150px;
+    }
+
+    .product {
+      display: inline-block;
+      background: white;
+      margin: 10px;
+      padding: 15px;
+      width: 200px;
+      box-shadow: 0 0 10px #bbb;
+      border-radius: 10px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .about {
+      background-color: #fffaf2;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <img src="c:\Users\Hp-256\Downloads\Riya\New album\IMG-20250623-WA0001.jpg" alt="Logo" style="vertical-align:middle; border-radius: 60%; width: 200px;">
+  <h1 style="display: inline; margin-left: 10px;">MAHI IMITATION</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+  <!-- Home / Banner -->
+  <section id="home" class="banner" style="position: relative; height: 300px; overflow: hidden; text-align: center; color: white;">
+<script>
+</script>
+  <!-- Background Video -->
+  <video autoplay muted loop style="max-width: 400px; height: 400px;" >
+    <source src="jewellery.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Content on Top of Video -->
+  <div style="position: relative; top: 50%; transform: translateY(-50%);">
+    <h1>Elegant Imitation Jewellery</h1>
+    <p>Grace, style & affordability – all in one place.</p>
+  </div>
+</section>
+  
+  <!-- Categories -->
+  <section class="collections">
+    <h1>Shop by Category</h1>
+    <div class="collection-list">
+      <div class="collection"> Earrings</div>
+      <div class="collection"> Necklaces</div>
+      <div class="collection"> Bangles</div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h2>Our Jewellery Collection</h2>
+    <div style="text-align: center; margin-top: 20px;">
+  <button class="category-button" onclick="document.getElementById('necklace-section').scrollIntoView({behavior: 'smooth'});">Necklaces</button>
+  <button class="category-button" onclick="document.getElementById('earring-section').scrollIntoView({behavior: 'smooth'});">Earrings</button>
+  <button class="category-button" onclick="document.getElementById('bangle-section').scrollIntoView({behavior: 'smooth'});">Bangles</button>
+    </div>
+    <h1 id="necklace-section" >......NECKLACES......</h1>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0002.jpg" alt="Kundan Necklace" width=100 height="200">
+      <h3>Kundan Necklace</h3>
+      <p>₹899</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0004.jpg" alt=" Necklace" width=100 height="200">
+      <h3>Gold Necklace</h3>
+      <p>₹1099</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0006.jpg" alt=" Necklace" width=100 height="200">
+      <h3> Diamond Necklace</h3>
+      <p>₹7009</p>
+      </div>
+      <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0008.jpg" alt=" Necklace" width=100 height="200">
+      <h3>Silver Necklace</h3>
+      <p>₹899</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0014.jpg" alt=" Necklace" width=100 height="200">
+      <h3> Necklace</h3>
+      <p>₹499</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0017.jpg" alt=" Necklace" width=100 height="200">
+      <h3>silver-Diamond Necklace</h3>
+      <p>₹6199</p>
+    </div>
+        <h1 id="earring-section" >......EARRING......</h1>
+
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0018.jpg" alt="Jhumka Earrings">
+      <h3>PEARL Earrings</h3>
+      <p>₹499</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0019.jpg" alt="Jhumka Earrings">
+      <h3>  Gold Earrings</h3>
+      <p>₹399</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0023.jpg" alt="Jhumka Earrings">
+      <h3> Peacock Earrings</h3>
+      <p>₹799</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0025.jpg" alt="Jhumka Earrings">
+      <h3>Silver Earrings</h3>
+      <p>₹599</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0028.jpg" alt="Jhumka Earrings">
+      <h3>Ruby Earrings</h3>
+      <p>₹1399</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0029.jpg" alt="Gold earring">
+      <h3>Diamond Earrings</h3>
+      <p>₹699</p>
+    </div>
+            <h1 id="bangle-section" >......BANGLE......</h1>
+
+   <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0010.jpg" alt="Gold Bangles">
+      <h3>Pearl Bangles</h3>
+      <p>₹699</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\New album\IMG-20250627-WA0011.jpg" alt="Gold Bangles">
+      <h3>Gold Bangles</h3>
+      <p>₹699</p>
+    </div>
+     <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\IMG-20250623-WA0002.jpg" alt="Gold Bangles">
+      <h3>silver Bangles</h3>
+      <p>₹699</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\IMG-20250623-WA0003.jpg" alt="Gold Bangles">
+      <h3>silver Bangles</h3>
+      <p>₹699</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\IMG-20250623-WA0004.jpg" alt="Gold Bangles">
+      <h3>silver Bangles</h3>
+      <p>₹699</p>
+    </div>
+    <div class="product">
+      <img src="c:\Users\Hp-256\Downloads\Riya\New album\IMG-20250623-WA0005.jpg" alt="Gold Bangles">
+      <h3>silver Bangles</h3>
+      <p>₹699</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p><h3>
+      Welcome in <strong>Mahi-Imitation</strong>At Mahi Imitation Jewellery, we believe that beauty lies in the details. Founded with a passion for elegance and affordability, Mahi brings you a stunning collection of imitation jewellery designed to complement your unique style.
+
+Whether you're dressing up for a wedding, a festive occasion, or simply adding sparkle to your everyday look, our pieces are crafted to deliver timeless charm without compromising on quality. We blend traditional craftsmanship with modern trends, offering everything from classic earrings and bangles to contemporary necklaces and rings.
+
+Each piece is made with care, using high-quality materials that ensure durability, shine, and comfort. Our goal is to make luxury accessible — so you can express yourself with confidence, every day.
+
+Welcome to the world of Mahi — where elegance meets affordability.
+
+
+    </p>
+    <p>
+      Whether it’s a wedding, party, or daily wear – our jewellery fits every occasion.
+    </h3></p>
+  </section>
+  
+  <title>Send Message</title>
+  <script>
+    function send() {
+      var name = document.getElementById('name').value;
+      var lname = document.getElementById('lname').value;
+      var message = document.getElementById('message').value;
+
+      var phoneNumber = "91XXXXXXXXXX"; // Replace with actual number
+      var fullMessage = "My name is " + name + " " + lname + ". Message: " + message;
+      var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(fullMessage);
+
+      window.open(url, '_blank');
+    }
+  </script>
+  <div style="display: flex;justify-content: center; flex-wrap: wrap;">
+ 
+  <form onsubmit="send(); return false;" style="padding: 20px;border: 2px solid #444; width: max-content;">
+  
+    <label>First Name</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label>Last Name</label><br>
+    <input type="text" id="lname"><br><br>
+
+    <label>Message</label><br>
+    <input type="text" id="message"><br><br>
+
+    <button type="submit">Send Message</button>
+     </div>
+  </form>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><pre><b><h2>📍 Address:
+
+Manerajuri, Tasgaon, Maharashtra, India.
+
+📞 Phone:
+8956050667
+
+📧 Email:
+mahijewellery@123.com)
+
+🕒 Business Hours:
+Monday to Saturday: 10:00 AM – 7:00 PM
+Sunday: Closed
+
+💬 Follow Us:
+Instagram | Facebook | WhatsApp | Pinterest</h2></b></pre></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mahi imitation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
